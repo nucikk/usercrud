@@ -1,0 +1,64 @@
+{
+ "users": [
+   {
+     "id": 1,
+     "name": "Nino",
+     "surname": "Kalandadze",
+     "email": "nino.kalandadze@example.com"
+   },
+   {
+     "id": 2,
+     "name": "Giorgi",
+     "surname": "Kakhabrishvili",
+     "email": "giorgi.kakhabrishvili@example.com"
+   },
+   {
+     "id": 3,
+     "name": "Ana",
+     "surname": "Dvalishvili",
+     "email": "ana.dvalishvili@example.com"
+   },
+   {
+     "id": 4,
+     "name": "Luka",
+     "surname": "Mchedlidze",
+     "email": "luka.mchedlidze@example.com"
+   },
+   {
+     "id": 5,
+     "name": "Nino",
+     "surname": "Japaridze",
+     "email": "nino.japaridze@example.com"
+   },
+   {
+     "id": 6,
+     "name": "Irakli",
+     "surname": "Gurgenidze",
+     "email": "irakli.gurgenidze@example.com"
+   },
+   {
+     "id": 7,
+     "name": "Mariam",
+     "surname": "Kapanadze",
+     "email": "mariam.kapanadze@example.com"
+   },
+   {
+     "id": 8,
+     "name": "David",
+     "surname": "Sikharulidze",
+     "email": "david.sikharulidze@example.com"
+   },
+   {
+     "id": 9,
+     "name": "Natia",
+     "surname": "Kereselidze",
+     "email": "natia.kereselidze@example.com"
+   },
+   {
+     "id": 10,
+     "name": "Zaza",
+     "surname": "Bolqvadze",
+     "email": "zaza.bolqvadze@example.com"
+   }
+ ]
+}
