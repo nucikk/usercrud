@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <ul>
       {data.map((user) => (
-        <li key={user.id}>
+        <li key={user.id} className="user_box">
           {user.name} {user.surname}
           {user.email}
         </li>
