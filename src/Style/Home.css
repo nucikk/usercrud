@@ -1,0 +1,44 @@
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.user_list{
+ border: 2px solid rgb(10, 11, 37);
+ margin: 20px 0;
+}
+
+.user_item{
+ display: flex;
+ justify-content: space-between;
+ margin: 20px 0;
+ border-bottom: 1px solid #c7bbbb;
+ position: relative;
+}
+
+.fullname {
+ color: #0101ac;
+ margin-left: 10px;
+}
+
+.user_actions {
+ margin: 0px 4px 10px 152px;
+}
+
+.action_btn_update,
+.action_btn_delete {
+ width: 150px;
+ height: 40px;
+ margin-left: 15px;
+ border-radius: 6px;
+ border: 1px solid #0befff;
+ background-color: #0505f2;
+ font-size: 20px;
+ color: #fff;
+}
+
+.action_btn_update:hover,
+.action_btn_delete :hover {
+ background-color: #0b29a0;
+}
