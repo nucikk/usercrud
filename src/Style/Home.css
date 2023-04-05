@@ -4,10 +4,12 @@
  align-items: center;
 }
 
-.user_list{
+.user_box{
  border: 2px solid rgb(10, 11, 37);
- margin: 20px 0;
+ margin: 20px 0px;
+ padding: 15px;
 }
+
 
 .user_item{
  display: flex;
@@ -27,7 +29,8 @@
 }
 
 .action_btn_update,
-.action_btn_delete {
+.action_btn_delete,
+.btn_create {
  width: 150px;
  height: 40px;
  margin-left: 15px;
@@ -41,4 +44,10 @@
 .action_btn_update:hover,
 .action_btn_delete :hover {
  background-color: #0b29a0;
+}
+
+.btn_create {
+background-color: #6bae06;
+border: 1px solid #04ef46;
+margin: 10px 5px;
 }
