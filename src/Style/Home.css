@@ -40,7 +40,9 @@
  font-size: 20px;
  color: #fff;
 }
-
+.action_btn_delete {
+ background-color: red;
+}
 .action_btn_update:hover,
 .action_btn_delete :hover {
  background-color: #0b29a0;
@@ -51,3 +53,4 @@ background-color: #6bae06;
 border: 1px solid #04ef46;
 margin: 10px 5px;
 }
+
