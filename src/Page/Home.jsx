@@ -7,7 +7,7 @@ const Home = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://jsonplaceholder.typicode.com/users")
+    axios.get("http://localhost:3030/users")
       .then(res => setData(res.data))
       .catch(err => console.log(err))
   }, []);
@@ -33,7 +33,7 @@ const Home = () => {
                 <p className='fullname'>{user.surname} - </p>
                 <p>{user.email}</p>
                 <div className="user_actions">
-                  <button className="action_btn_update">Update</button>
+                  <Link to={`/update/${user.id}`}> <button className="action_btn_update" >Update</button></Link>
                   <button className="action_btn_delete">Delete</button>
                 </div>
               </li>

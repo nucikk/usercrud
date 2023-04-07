@@ -1,23 +1,22 @@
-import axios from 'axios'
 import React, { useState } from 'react'
-import "../Style/create.css" 
-import { useNavigate } from 'react-router-dom'
-const Create = () => {
-  const [inputDate, setInputDate] = useState({
-    name: "",
-    email: "",
-  }) 
-const navigate = useNavigate()
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    axios.post('http://localhost:3030/users', inputDate)
-    .then(res => {
-      alert("ss")
-      navigate('/')
-    })
-  } 
+import axios from 'axios';
+import {navigate} from "react-router-dom"
+const Update = () => {  const [inputDate, setInputDate] = useState({
+ name: "",
+ email: "",
+}) 
+
+const handleSubmit = (e) => {
+ e.preventDefault()
+ axios.post('http://localhost:3030/users', inputDate)
+ .then(res => {
+   alert("ss")
+   navigate('/')
+ })
+} 
   return (
-    <div className="form_container">
+    <div>
+       <div className="form_container">
      <div className="form_field">
       <form onSubmit={handleSubmit}>
       <label htmlFor="Full Name">Name</label>
@@ -31,7 +30,8 @@ const navigate = useNavigate()
       </form>
      </div>
     </div>
+    </div>
   )
 }
 
-export default Create
+export default Update
