@@ -8,11 +8,12 @@ function App() {
   return (
     <BrowserRouter>
      <Routes>
-       <Route path="/" element={<Home />}></Route>
+       <Route path="/" element={<Home />}d></Route>
        <Route path="/create" element={<Create />}/>
        <Route path="/update/:id" element={<Update />}/>
      </Routes>
     </BrowserRouter>
+    
   );
 }
 

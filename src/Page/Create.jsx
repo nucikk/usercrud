@@ -2,11 +2,14 @@ import axios from 'axios'
 import React, { useState } from 'react'
 import "../Style/create.css" 
 import { useNavigate } from 'react-router-dom'
+
 const Create = () => {
+ 
   const [inputDate, setInputDate] = useState({
     name: "",
     email: "",
   }) 
+
 const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -16,6 +19,7 @@ const navigate = useNavigate()
       navigate('/')
     })
   } 
+
   return (
     <div className="form_container">
      <div className="form_field">
