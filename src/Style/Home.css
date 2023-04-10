@@ -30,6 +30,7 @@
 
 .action_btn_update,
 .action_btn_delete,
+.action_btn_more,
 .btn_create {
  width: 150px;
  height: 40px;
@@ -41,13 +42,15 @@
  color: #fff;
 }
 .action_btn_delete {
+ width: 100px;
  background-color: red;
 }
-.action_btn_update:hover,
-.action_btn_delete :hover {
+.action_btn_update:hover{
  background-color: #0b29a0;
 }
-
+.action_btn_more {
+  background-color:gold;
+}
 .btn_create {
 background-color: #6bae06;
 border: 1px solid #04ef46;

@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "name": "Nino",
+      "name": "Niniko",
       "surname": "Kalandadze",
       "email": "nino.kalandadze@example.com"
     },
@@ -61,34 +61,14 @@
       "email": "zaza.bolqvadze@example.com"
     },
     {
-      "name": "nine",
+      "name": "kira",
       "email": "kira@gmail.com",
       "id": 11
     },
     {
-      "name": "ნენე",
-      "email": "kirianini28@gmail.com",
+      "name": "nano",
+      "email": "nano@gmail.com",
       "id": 12
-    },
-    {
-      "name": "fd",
-      "email": "ddf@gmail.com",
-      "id": 13
-    },
-    {
-      "name": "ნენე",
-      "email": "nene@gmail.com",
-      "id": 14
-    },
-    {
-      "name": "ს",
-      "email": "aa-0ag@gmail.com",
-      "id": 15
-    },
-    {
-      "name": "ლიკაdd",
-      "email": "likuna11@gmail.com",
-      "id": 16
     }
   ]
 }

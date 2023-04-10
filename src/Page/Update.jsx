@@ -35,7 +35,8 @@ const Update = () => {
           <form onSubmit={handleSubmit}>
             <label htmlFor="id">ID</label>
             <input
-              type="text"
+              type="number"      
+              disabled
               name="id"
               className="form_input"
               placeholder="Enter Your Name..."

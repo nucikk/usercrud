@@ -15,7 +15,7 @@ const navigate = useNavigate()
     e.preventDefault()
     axios.post('http://localhost:3030/users', inputDate)
     .then(res => {
-      alert("ss")
+      alert("Sent successfully")
       navigate('/')
     })
   } 
